@@ -1,0 +1,27 @@
+.header {
+    background-color: var(--color-white);
+    padding: 15px 25px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 3px 12px 0 rgba(38, 47, 54, 0.5);
+
+    a {
+        outline: none;
+        color: var(--color-blue);
+        line-height: 1.4;
+
+        &:hover {
+            color: var(--color-blue-light);
+        }
+
+        &:active {
+            color: var(--color-blue-dark);
+        }
+
+        span {
+            white-space: nowrap;
+        }
+    }
+}
