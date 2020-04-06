@@ -70,7 +70,7 @@ export function createIssuesLayer(items) {
 
   items.forEach(item => {
     const text = String(item.description).replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
-    const { link, phone, telegramNickName } = item
+    const { contactName, link, phone, telegramNickName } = item
 
     const icon = Leaflet.divIcon({
       className: 'avatar-box',
@@ -78,8 +78,8 @@ export function createIssuesLayer(items) {
                 <div class="avatar avatar-${item.role}"></div>
              </a>
              <span class="message">
-                ${phone}
-                <br/>
+                <b>${contactName}</b>
+                <b>${phone}</b>
                 ${text}
                 ${link ? `<a href="${link}" target="_blank" rel="noopener noreferrer">Помочь деньгами</a>` : ''}
              </span>`

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 import AddButton from '@components/AddButton'
 import Header from '@components/Header'
+import Info from '@components/Info'
 import Loading from '@components/Loading'
 import Map from '@components/Map'
 
@@ -28,6 +29,7 @@ function App() {
       ) : (
         <Loading />
       )}
+      <Info />
       <AddButton />
     </>
   )
