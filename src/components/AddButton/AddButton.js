@@ -13,7 +13,7 @@ function AddButton() {
       target="_blank"
     >
       <Icon />
-      <span>Добавить точку</span>
+      <span>Добавить себя</span>
     </a>
   )
 }
