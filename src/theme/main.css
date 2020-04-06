@@ -59,32 +59,32 @@ button {
         background-position: -2px -2px;
 
         &.avatar-Car {
-            background-image: url("../static/icons/map/Car.png");
+            background-image: url(../static/icons/map/Car.png);
         }
 
         &.avatar-Food {
-            background-image: url("../static/icons/map/Food.png");
+            background-image: url(../static/icons/map/Food.png);
         }
 
         &.avatar-Health {
             border-color: var(--color-red);
-            background-image: url("../static/icons/map/Health.png");
+            background-image: url(../static/icons/map/Health.png);
         }
 
         &.avatar-House {
-            background-image: url("../static/icons/map/House.png");
+            background-image: url(../static/icons/map/House.png);
         }
 
         &.avatar-Info {
-            background-image: url("../static/icons/map/Info.png");
+            background-image: url(../static/icons/map/Info.png);
         }
 
         &.avatar-Money {
-            background-image: url("../static/icons/map/Money.png");
+            background-image: url(../static/icons/map/Money.png);
         }
 
         &.avatar-Other {
-            background-image: url("../static/icons/map/Other.png");
+            background-image: url(../static/icons/map/Other.png);
         }
     }
 
